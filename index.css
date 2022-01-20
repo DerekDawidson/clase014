@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src:  url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, rgba(66, 183, 245, 0.8) 0%, rgba(66, 245, 189, 0.4) 100%) no-repeat center center fixed;   
+}
+
+.login-form--header {
+    color: #4285F4;
+    margin-bottom: 50px;
+    margin-top: 0px;
+
+}
+
+#login {
+    background-color: white;
+    box-sizing: border-box;
+    width: 600px;
+    padding: 60px;
+    border-right: solid 30px #4285F4;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#name, #password {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    display:block;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: small;
+    font-weight: 500;
+}
+
+.remember, .forgot {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    font-size: small;
+    margin: 20px 0px 40px;
+}
+
+.remember {
+    margin-right: 232px;
+}
+
+.login-form--button {
+    display: block;
+    background-color: #4285F4;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
